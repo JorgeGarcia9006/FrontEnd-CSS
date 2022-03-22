@@ -1,0 +1,112 @@
+
+section{
+    height: 1000px;
+}
+
+
+<div class="c1"></div>
+<div class="c1.1"></div>
+<div class="c1.2"></div> 
+<div class="c1.3"></div>
+<div class="c1.4"></div>
+<div class="c1.5"></div>
+<div class="c1.6"></div>
+
+<div class="c2"></div>
+
+
+<div class="c3"></div>
+
+
+<div class="c4"></div>
+
+
+<style>
+
+  
+  .c1{
+    position: absolute;
+    top: 10px;
+    left: 10px
+  }
+    .c1.1{
+        position: absolute;
+        top: 10px;
+        left: 10px
+    }
+    .c1.2{
+        position: absolute;
+        top: 40px;
+        left: 20px
+    }
+    .c1.3{
+        position: absolute;
+        top: 30px;
+        left: 30px
+      }
+      .c1.4{
+        position: absolute;
+        top: 40px;
+        left: 40px
+      }
+      .c1.5{
+        position: absolute;
+        top: 50px;
+        left: 50px
+      }
+      .c1.6{
+        position: absolute;
+        top: 60px;
+        left: 60px
+      }
+
+
+  .c2{
+    position: absolute;
+    top: 1000px;
+    left: 10px
+  }
+
+  .c3{
+    position: absolute;
+    top: 2000px;
+    left: 10px
+  }
+  
+  .c4{
+    position: absolute;
+    top: 3000px;
+    left: 10px
+  }
+
+
+    div {
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+        top: 10px;
+        left: 10px
+        }
+  
+</style>
+
+
+.fondoMenu{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(230,244,252,1) 53%, rgba(0,155,255,1) 100%);
+}
+
+.fondoColor{
+    background-color: rgba(13, 240, 32, 0.726);;
+}
+
+.fondoColorSelect{
+    background-color: rgba(241, 245, 255, 1.0);;
+}
+
+.fondoCompleto{
+    background-image: url("./Imagenes/Fondo\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
